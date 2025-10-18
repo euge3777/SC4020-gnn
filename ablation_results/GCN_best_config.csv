@@ -1,0 +1,2 @@
+Model,num_layers,hidden_channels,dropout,lr,weight_decay,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GCN,2,64,0.5,0.01,0.0005,0.819,0.819,0.802,0.802,59

@@ -1,0 +1,2 @@
+Model,num_layers,hidden_channels,heads,dropout,attn_dropout,alpha,lr,weight_decay,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GAT,2,64,4,0.5,0.0,0.2,0.01,0.0005,0.812,0.812,0.802,0.802,35

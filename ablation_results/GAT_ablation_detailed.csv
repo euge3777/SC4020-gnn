@@ -1,0 +1,17 @@
+model,parameter,value,config,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GAT,num_layers,2.0,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.829,0.829,0.824,0.824,24
+GAT,num_layers,3.0,"{'num_layers': 3, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.804,0.804,0.804,0.804,27
+GAT,num_layers,4.0,"{'num_layers': 4, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.773,0.773,0.764,0.764,48
+GAT,hidden_channels,32.0,"{'num_layers': 2, 'hidden_channels': 32, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.815,0.815,0.796,0.796,24
+GAT,hidden_channels,64.0,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.801,0.801,0.796,0.796,33
+GAT,heads,4.0,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.796,0.796,0.8,0.8,25
+GAT,dropout,0.0,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.813,0.813,0.798,0.798,26
+GAT,dropout,0.5,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.8,0.8,0.8,0.8,29
+GAT,dropout,0.7,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.7, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.811,0.811,0.798,0.798,23
+GAT,attn_dropout,0.0,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.797,0.797,0.796,0.796,34
+GAT,attn_dropout,0.2,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.2, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.819,0.819,0.806,0.806,41
+GAT,alpha,0.2,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.803,0.803,0.792,0.792,26
+GAT,lr,0.005,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.005, 'weight_decay': 0.0005}",0.796,0.796,0.794,0.794,29
+GAT,lr,0.01,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.791,0.791,0.802,0.802,31
+GAT,weight_decay,0.0005,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.801,0.801,0.806,0.806,31
+GAT,weight_decay,0.001,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.001}",0.802,0.802,0.804,0.804,39

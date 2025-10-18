@@ -1,0 +1,15 @@
+model,parameter,value,config,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GCN,num_layers,2.0,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.827,0.827,0.81,0.81,68
+GCN,num_layers,3.0,"{'num_layers': 3, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.806,0.806,0.81,0.81,58
+GCN,num_layers,4.0,"{'num_layers': 4, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.772,0.772,0.806,0.806,52
+GCN,hidden_channels,32.0,"{'num_layers': 2, 'hidden_channels': 32, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.82,0.82,0.792,0.792,72
+GCN,hidden_channels,64.0,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.832,0.832,0.798,0.798,73
+GCN,hidden_channels,128.0,"{'num_layers': 2, 'hidden_channels': 128, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.814,0.814,0.794,0.794,53
+GCN,hidden_channels,256.0,"{'num_layers': 2, 'hidden_channels': 256, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.815,0.815,0.804,0.804,43
+GCN,dropout,0.0,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0, 'lr': 0.01, 'weight_decay': 0.0005}",0.804,0.804,0.794,0.794,54
+GCN,dropout,0.3,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.3, 'lr': 0.01, 'weight_decay': 0.0005}",0.833,0.833,0.81,0.81,61
+GCN,dropout,0.5,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.811,0.811,0.806,0.806,58
+GCN,lr,0.005,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.005, 'weight_decay': 0.0005}",0.823,0.823,0.802,0.802,91
+GCN,lr,0.01,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.798,0.798,0.796,0.796,48
+GCN,weight_decay,0.0005,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.822,0.822,0.806,0.806,53
+GCN,weight_decay,0.001,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.001}",0.807,0.807,0.806,0.806,58

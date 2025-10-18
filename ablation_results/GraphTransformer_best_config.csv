@@ -1,0 +1,2 @@
+Model,gcn_layers,transformer_layers,hidden_channels,dropout,attn_dropout,pre_norm,residual_dropout,grad_clip_norm,lr,weight_decay,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GraphTransformer,1,2,256,0.5,0.0,True,0.0,1.0,0.005,0.0005,0.817,0.817,0.808,0.808,30

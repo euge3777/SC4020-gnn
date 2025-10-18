@@ -1,0 +1,5 @@
+Model,Best_Config,Test_Accuracy,Test_F1,Val_F1
+GCN,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'lr': 0.01, 'weight_decay': 0.0005}",0.819,0.819,0.802
+GAT,"{'num_layers': 2, 'hidden_channels': 64, 'heads': 4, 'dropout': 0.5, 'attn_dropout': 0.0, 'alpha': 0.2, 'lr': 0.01, 'weight_decay': 0.0005}",0.812,0.812,0.802
+GraphSAGE,"{'num_layers': 2, 'hidden_channels': 128, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.794,0.794,0.784
+GraphTransformer,"{'gcn_layers': 1, 'transformer_layers': 2, 'hidden_channels': 256, 'dropout': 0.5, 'attn_dropout': 0.0, 'pre_norm': True, 'residual_dropout': 0.0, 'grad_clip_norm': 1.0, 'lr': 0.005, 'weight_decay': 0.0005}",0.817,0.817,0.808

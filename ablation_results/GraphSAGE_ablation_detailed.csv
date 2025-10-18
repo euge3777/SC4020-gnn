@@ -1,0 +1,15 @@
+model,parameter,value,config,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GraphSAGE,num_layers,2,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.798,0.798,0.79,0.79,56
+GraphSAGE,num_layers,3,"{'num_layers': 3, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.808,0.808,0.79,0.79,40
+GraphSAGE,num_layers,4,"{'num_layers': 4, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.757,0.757,0.78,0.78,40
+GraphSAGE,hidden_channels,32,"{'num_layers': 2, 'hidden_channels': 32, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.788,0.788,0.774,0.774,50
+GraphSAGE,hidden_channels,64,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.808,0.808,0.794,0.794,50
+GraphSAGE,hidden_channels,128,"{'num_layers': 2, 'hidden_channels': 128, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.791,0.791,0.804,0.804,31
+GraphSAGE,dropout,0,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.775,0.775,0.774,0.774,39
+GraphSAGE,dropout,0.3,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.3, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.804,0.804,0.796,0.796,45
+GraphSAGE,dropout,0.5,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.795,0.795,0.784,0.784,48
+GraphSAGE,lr,0.005,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.005, 'weight_decay': 0.0005}",0.8,0.8,0.792,0.792,60
+GraphSAGE,lr,0.01,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.799,0.799,0.79,0.79,39
+GraphSAGE,weight_decay,0.0005,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.808,0.808,0.794,0.794,30
+GraphSAGE,weight_decay,0.001,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.001}",0.796,0.796,0.776,0.776,55
+GraphSAGE,aggregator,mean,"{'num_layers': 2, 'hidden_channels': 64, 'dropout': 0.5, 'aggregator': 'mean', 'lr': 0.01, 'weight_decay': 0.0005}",0.783,0.783,0.782,0.782,40

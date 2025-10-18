@@ -1,0 +1,2 @@
+Model,num_layers,hidden_channels,dropout,aggregator,lr,weight_decay,test_accuracy,test_f1,val_accuracy,val_f1,epochs_trained
+GraphSAGE,2,128,0.5,mean,0.01,0.0005,0.794,0.794,0.784,0.784,37
